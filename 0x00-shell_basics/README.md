@@ -8,3 +8,4 @@
 7. Betty in Holberton --> mv /tmp/betty /tmp/holberton
 8. Bye bye Betty --> rm /tmp/holberton/betty
 9. Bye bye Holberton --> rmdir /tmp/holberton
+10. Back to the future --> cd -
