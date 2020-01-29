@@ -1,1 +1,1 @@
- Where am I?=pwd
+There is no place like home=ls
