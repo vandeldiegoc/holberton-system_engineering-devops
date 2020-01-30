@@ -5,3 +5,4 @@
 4. Empty! = touch
 5. Execute  =  chmod
 6. Multiple permissions = chmod ug+x,a+r hello
+7. Everybody! = chmod uga+x hello
