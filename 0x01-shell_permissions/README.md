@@ -10,3 +10,4 @@
 9. John Doe = chmd 753 hello 
 10. Look in the mirror =  chmod --reference=olleh hello
 11. Directories = chmod -R ugo+x
+12. More directories = mkdir 751 dir_holberton
