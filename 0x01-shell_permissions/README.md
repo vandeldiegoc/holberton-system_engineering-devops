@@ -12,3 +12,4 @@
 11. Directories = chmod -R ugo+x
 12. More directories = mkdir 751 dir_holberton
 13. Change group = chgrp holberton hello
+14. Owner and group = crown -HR betty:holberton .
