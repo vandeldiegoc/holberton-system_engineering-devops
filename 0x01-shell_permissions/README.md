@@ -8,3 +8,4 @@
 7. Everybody! = chmod uga+x hello
 8. James Bond  = chmod 007 hello 
 9. John Doe = chmd 753 hello 
+10. Look in the mirror =  chmod --reference=olle hello
