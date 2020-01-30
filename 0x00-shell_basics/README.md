@@ -16,3 +16,4 @@
 15. Let’s move --> mv [[:upper:]]* /tmp/u
 16. Clean Emacs --> rm *~
 17. Tree --> mkdir -p welcome/to/holberton
+18. Life is a series of commas, not periods --> ls -apm | sort -d
