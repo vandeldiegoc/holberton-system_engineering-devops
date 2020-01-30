@@ -9,4 +9,4 @@
 8. James Bond  = chmod 007 hello 
 9. John Doe = chmd 753 hello 
 10. Look in the mirror =  chmod --reference=olleh hello
-11. Directories = chmod -R a=x
+11. Directories = chmod -R uga+x
