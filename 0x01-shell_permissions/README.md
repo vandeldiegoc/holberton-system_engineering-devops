@@ -4,4 +4,4 @@
 3. New owner = sudo chown betty hello
 4. Empty! = touch
 5. Execute  =  chmod
-6. Multiple permissions = chmod ug+x,a+r
+6. Multiple permissions = chmod ug+x,a+r hello
