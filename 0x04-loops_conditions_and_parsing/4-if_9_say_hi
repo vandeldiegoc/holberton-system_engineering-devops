@@ -4,7 +4,7 @@ n=1
 while (( n <= 10 ))
 do
 
-        if [ "$n" = "8" ]
+        if [ "$n" = "9" ]
         then
                 echo "Hi"
                 ((n=n+1))
