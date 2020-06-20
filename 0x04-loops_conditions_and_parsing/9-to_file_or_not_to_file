@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #script that gives you information about the holbertonschool file.
-if [[ -f "holbertonschool" ]]
+if [[ -e "holbertonschool" ]]
 then
 	echo "holbertonschool file exists"
 	if [ -s "holbertonschool" ];
