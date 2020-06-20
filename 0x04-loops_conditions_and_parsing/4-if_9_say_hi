@@ -4,12 +4,10 @@ n=1
 while (( n <= 10 ))
 do
 
-        if [ "$n" = "9" ]
+        if [ "$n" = "10" ]
         then
                 echo "Hi"
-                ((n=n+1))
-        else
+	fi
                 echo "Holberton School"
                 ((n=n+1))
-        fi
 done
