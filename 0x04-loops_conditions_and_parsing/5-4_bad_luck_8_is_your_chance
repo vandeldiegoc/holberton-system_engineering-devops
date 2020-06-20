@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+n=1
+while (( n <= 10 ))
+do
+
+        if [ "$n" = "4" ]
+        then
+                echo "bad luck"
+                ((n=n+1))
+        elif [ "$n" = "8" ]
+        then
+               echo "good luck"
+                ((n=n+1))
+
+        else
+                echo "Holberton School"
+                ((n=n+1))
+        fi
+done
