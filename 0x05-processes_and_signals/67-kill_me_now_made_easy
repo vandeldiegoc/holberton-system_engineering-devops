@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#work like ctr-c
+pkill -f "7-highlander"
