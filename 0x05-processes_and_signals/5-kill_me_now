@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#work like ctr-c
+resul="$( pgrep bash | tail -3 | head -1 )"
+kill "$resul"

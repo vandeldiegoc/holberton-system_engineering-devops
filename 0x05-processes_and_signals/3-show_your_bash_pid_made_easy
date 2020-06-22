@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#show list with the word bash 
+pgrep -l bash

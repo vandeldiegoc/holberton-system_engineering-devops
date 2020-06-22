@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2009
+# show process with the word bash
+ps afux | grep  "bash"
