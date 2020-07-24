@@ -1,10 +1,10 @@
-#Web infrastructure design
+# Web infrastructure design
 
-##objetive 
+## objetive 
 
 display a whiteboard of an Internet infrastructure system that uses the acronym LAMP server infrastructure of Linux, Apache, MySQL and PHP. In addition to dealing with technologies such as the Domain Name System (DNS), load balancer, firewall, HTTP, HTTPS, database.
 
-###Glossary
+### Glossary
                     
 Name  | Definition
 ------------- | ------------
@@ -17,7 +17,7 @@ load balancer<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2
  SSL<img src=" https://cdn3.iconfinder.com/data/icons/got-idea-vol-2/128/lock_ssl-512.png" width="100px"> | Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client—typically a web server (website) and a browser, or a mail server and a mail client 
 
 
-###sources
+### sources
  - https://whatis.techtarget.com/definition/Web-server
  - https://www.webopedia.com/TERM/F/firewall.html
  - https://www.f5.com/services/resources/glossary/load-balancer
