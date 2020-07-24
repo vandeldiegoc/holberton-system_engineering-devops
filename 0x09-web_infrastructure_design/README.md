@@ -14,7 +14,7 @@ Name  | Definition
  firewall<img src="https://st.depositphotos.com/1853861/4172/v/450/depositphotos_41724719-stock-illustration-firewall-icon.jpg " width="100px"> | A firewall is a network security system designed to prevent unauthorized access to or from a private network. Firewalls can be implemented as both hardware and software, or a combination of both. 
   load balancer<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/AWS_Simple_Icons_Networking_Amazon_Elastic_Load_Balancer.svg/1024px-AWS_Simple_Icons_Networking_Amazon_Elastic_Load_Balancer.svg.png" width="100px"> | A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications.
   database<img src="https://static.thenounproject.com/png/36146-200.png" width="100px"> | A database is a systematic collection of data. They support electronic storage and manipulation of data. Databases make data management easy. 
-SSL<img src="https://cdn3.iconfinder.com/data/icons/got-idea-vol-2/128/lock_ssl-512.png" width="100px"> | Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client—typically a web server (website) and a browser, or a mail server and a mail client 
+SSL<img src="https://cdn3.iconfinder.com/data/icons/got-idea-vol-2/128/lock_ssl-512.png" width="150px"> | Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client—typically a web server (website) and a browser, or a mail server and a mail client 
 
 
 ### sources
