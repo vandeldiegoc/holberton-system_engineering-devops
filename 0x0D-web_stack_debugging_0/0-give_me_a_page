@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script answer  fix the issue
+service apache2 restart
