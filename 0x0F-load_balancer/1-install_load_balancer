@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
-# Install and configure HAproxy
+# Install your load balancer
 sudo apt-get -y update
 sudo apt-get -y install haproxy
+sudo chown  $USER:$USER /etc/haproxy/haproxy.cfg
 
 echo "
 frontend vandet
     bind *:80
     mode http
-    default_backend My_webserver
-backend My_webserver
+    default_backend app
+backend app
     balance roundrobin
-    server 1580-web-01 35.243.223.95 check
-    server 1580-web-02 54.147.36.179 check" >> /etc/haproxy/haproxy.cfg
+    server 1580-web-01 35.243.223.95:80 check
+    server 1580-web-02 54.147.36.179:80 check" >> /etc/haproxy/haproxy.cfg
 
-service haproxy restart
+sudo service haproxy restart
