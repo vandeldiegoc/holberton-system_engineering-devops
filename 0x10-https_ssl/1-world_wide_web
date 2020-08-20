@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# display dominios
+
+if [ "$#" -eq 2 ]; then
+	dominio=$2
+else 
+	dominio=("www" "lb-01" "web-01" "web-02")
+fi
+for i in "${dominio[@]}"; do
+	echo -n "The subdomain $i"
+	dig $i.$1 |grep "^[a-zA-Z]"  |awk '{print " is a " $4 " record and points to " $5}'
+done
+
