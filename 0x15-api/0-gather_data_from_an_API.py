@@ -7,20 +7,22 @@ from sys import argv
 if __name__ == "__main__":
     """coment module"""
 
-    n = requests.get('https://jsonplaceholder.typicode.com/users/' + argv[1])
-    name = n.json().get("name")
-    link_todos = 'https://jsonplaceholder.typicode.com/todos'
-    task = requests.get(link_todos, params={'userId': argv[1]})
-    tasks = task.json()
-    count = 0
+    users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
+                         .format(argv[1]))
+    todos = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'
+                         .format(argv[1]))
+    dict_users = users.json()
+    dict_todos = todos.json()
     total = 0
-    list_all = []
+    tasks = 0
 
-    for x in tasks:
-        if x['completed'] is True:
-            list_all.append(x['title'])
-            count = count + 1
-        total += 1
-    print("Employee {} is done with tasks({}/{}):".format(name, count, total))
-    for y in list_all:
-        print("\t {}".format(y))
+    for i in dict_todos:
+        if i.get('completed') is True:
+            tasks += 1
+        else:
+            total += 1
+    print("Employee {} is done with tasks({}/{}):"
+          .format(dict_users['name'], tasks, total + tasks))
+    for i in dict_todos:
+        if i.get('completed') is True:
+            print('\t {}'.format(i.get('title')))
