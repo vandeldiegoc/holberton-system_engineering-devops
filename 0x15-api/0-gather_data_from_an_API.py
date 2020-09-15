@@ -11,7 +11,6 @@ if __name__ == "__main__":
     script
     """
 
-
     n = requests.get('https://jsonplaceholder.typicode.com/users/' + argv[1])
     name = n.json().get("name")
     link_todos = 'https://jsonplaceholder.typicode.com/todos'
