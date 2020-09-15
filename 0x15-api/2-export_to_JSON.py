@@ -20,14 +20,14 @@ if __name__ == "__main__":
     count = 0
     total = 0
     list_all = []
-    dic = {}
     dic_all = {}
 
     for x in tasks:
+        dic = {}
         dic["task"] = x['title']
         dic["username"] = username
         dic["completed"] = x['completed']
         list_all.append(dic)
-        dic_all = {argv[1]: list_all}
+    dic_all = {argv[1]: list_all}
     with open('{}.json'.format(argv[1]), 'w') as json_file:
             json.dump(dic_all, json_file)
