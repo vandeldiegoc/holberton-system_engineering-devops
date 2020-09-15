@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""create scrip"""
+"""
+request api
+"""
 import requests
 from sys import argv
 import csv
 
 
 if __name__ == "__main__":
-    """script"""
+    """
+    script
+    """
 
     n = requests.get('https://jsonplaceholder.typicode.com/users/' + argv[1])
     username = n.json().get('username')
