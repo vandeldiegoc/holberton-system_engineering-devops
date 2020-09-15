@@ -1,11 +1,16 @@
 #!/usr/bin/python3
-"""create scrip"""
+"""
+request api
+"""
 import requests
 from sys import argv
 
 
 if __name__ == "__main__":
-    """coment module"""
+    """
+    script
+    """
+
 
     users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
                          .format(argv[1]))
