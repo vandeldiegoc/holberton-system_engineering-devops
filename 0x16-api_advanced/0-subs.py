@@ -1,4 +1,4 @@
-#!/usr/bin/pythvon3
+#!/usr/bin/python3
 """querie script"""
 import requests
 
